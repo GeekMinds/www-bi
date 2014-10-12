@@ -1,0 +1,85 @@
+.title
+{
+    background-color: #26B4F1;
+height: 40px;
+text-align: left;
+text-indent: 21px;
+color: #ffffff;
+font-family: 'Raleway Light';
+padding-top: 8px;
+border-radius: 7px;
+width: 100%;
+font-size: 23px;
+}
+input.fieldBiPuntos
+{
+    font-family: 'Raleway Light';
+    border-radius: 7px;
+    height: 40px;
+    text-align: left;
+    text-indent: 16px;
+    padding-top: 8px;
+    font-size: 18px;
+    margin-top: 23px;
+}
+.mensaje{
+    font-family: 'Raleway Light';
+    min-height: 120px;
+    margin-top: 17px;
+    border-radius: 7px;
+    max-width: 100%;
+    font-size: 23px;
+}
+button.enviar{
+    font-family: 'Raleway ExtraLight';
+  text-transform: none;
+margin-top: 20px;
+height: 60px;
+font-size: 21px;
+}
+.labelBipuntos
+{
+    font-family: 'Raleway Light';
+    padding-top: 21px;
+display: inline-block;
+font-size: 19px;
+padding-bottom: 22px;
+padding-right: 25px;
+
+}
+
+input[type="radio"]{
+    display: none;
+}
+input[type="radio"] + label span{
+    display: inline-block;
+    width: 19px;
+    height: 25px;
+    background: url(../media/images/checkbox.png) left top no-repeat;
+    padding-left: 25px;
+        margin-right: -1rem;
+        vertical-align: top;
+}
+input[type="radio"]:checked + label span{
+    background: url(../media/images/checkbox.png) left top no-repeat;
+    background-position-y: -27px;
+
+}
+.labelBipuntos span
+{
+   
+margin-left: 28px;
+}
+.categoria
+{
+    font-family: 'Raleway Light';
+    border-radius: 7px;
+    height: 40px;
+    text-align: left;
+    text-indent: 16px;
+    padding-top: 7px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 17px;
+    background-color: #ffffff;
+}

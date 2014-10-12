@@ -1,0 +1,327 @@
+h2{
+    padding-top: 1.5rem;
+    font-family: 'Raleway Bold', serif;
+    text-transform:uppercase;
+    font-size: 25px;
+    color: #27487e;
+}
+.infoContent p{
+    font-family: 'Raleway Light', serif;
+    color: #27487e;
+    text-align: justify;
+    text-indent: 40px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.row.withpadding {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+img.responsive{
+    width: 100%;
+}
+.paddingfix{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+button {
+    background: #ffb03d;
+    border-bottom: 3px #ed6a00 solid;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font-family: "Raleway";
+    font-size: 0.90em;
+    font-weight: 700;
+    margin-bottom: 25px;
+    padding: 12px 5px 12px 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    background-image: url('../media/images/header.jpg');
+    background-position-y: 135px;
+    background-position-x: -155px;
+}
+button:hover, button:focus, .button:hover, .button:focus {
+    background: #ff9d0c;
+}
+.btninside {
+    margin-top: -0.5rem;
+}
+.cintainside {
+    background-color: #2b5aa8;
+    font-family: "Raleway";
+    color: #fff;
+    text-align: center;
+    margin-top: -5rem;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+.videogallery{
+    background-image: url('../media/images/banner1.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.videogallery .video{
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+.videogallery .share{
+    background-image: url('../media/images/btn_share.png');
+    height: 55px;
+    width: 66px;
+    margin-top: -150px;
+    position: relative;
+}
+#shareModal{
+    top: 30% !important;
+    position: fixed;
+
+}
+
+.topLine{
+    border-top: #08A7E9 10px solid;
+}
+.bottomLine
+{
+    height: 35px;
+    background-color: #08A7E9;
+    font-family: 'Raleway Bold';
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 9px;
+}
+.selectMenu
+{
+    background-color:#F0F0F0;
+    padding-top: 15px;
+}
+.row.selectMenu li
+{
+    font-family:'Raleway ExtraLight';
+    font-size: 18px;
+    color:#B1B1B1;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    padding-left: 30px;
+}
+.filtroNumberBeneficio
+{
+    height: 43px;
+    text-align: center;
+    font-family: 'Raleway';
+    color: #ffffff;
+    padding-top: 13px;
+}
+.filtroNumberBeneficio a{
+    color: #ffffff;
+}
+.row.parentSelectMenu li a {
+    color: #ffffff;
+}
+.holder a 
+{
+    font-family: 'Raleway ExtraLight';
+color: #27487e !important;
+font-size: 19px !important;
+}
+.holder.inverse a
+{
+    font-family: 'Raleway ExtraLight';
+color: #fff !important;
+font-size: 19px !important;
+}
+#error .titulo_mondal{
+    padding-top: 1rem;
+    font-family: 'Raleway Bold', serif;
+    text-transform:uppercase;
+    font-size: 25px;
+    color: #27487e ;
+    text-align: center;
+}
+#error .btnCerrarModal{
+   cursor: pointer;
+position: absolute;
+right:0;
+top:0;
+}
+#error .modal_barra{
+    width: 100%;
+border-bottom: #27487e 4px solid;
+padding-top: 15px;
+}
+#error .message{
+    font-family: 'Raleway ExtraLigth', serif;
+padding-top: 15px;
+font-size: 15px;
+color: #27487e;
+text-align: center;
+}
+#error .cerrar{
+   margin-top: -30px;
+margin-left: 46px;
+}
+#correcto .titulo_mondal{
+    padding-top: 1rem;
+    font-family: 'Raleway Bold', serif;
+    text-transform:uppercase;
+    font-size: 25px;
+    color: #27487e ;
+    text-align: center;
+}
+#correcto .btnCerrarModal{
+   cursor: pointer;
+position: absolute;
+right:0;
+top:0;
+}
+#correcto .modal_barra{
+    width: 100%;
+border-bottom: #27487e 4px solid;
+padding-top: 15px;
+}
+#correcto .message{
+    font-family: 'Raleway ExtraLigth', serif;
+padding-top: 15px;
+font-size: 15px;
+color: #27487e;
+text-align: center;
+}
+#correcto .cerrar{
+   margin-top: -30px;
+margin-left: 46px;
+}
+#image .btnCerrarModal{
+   cursor: pointer;
+position: absolute;
+margin-left: -28px;
+}
+#image{
+    background: transparent;
+    box-shadow: none;
+border: none;
+}
+#shared .modal_barra{
+    width: 100%;
+border-bottom: #27487e 4px solid;
+padding-top: 15px;
+}
+#shared .btnCerrarModal{
+   cursor: pointer;
+position: absolute;
+right:0;
+top:0;
+}
+#shared .message{
+    font-family: 'Raleway ExtraLigth', serif;
+padding-top: 15px;
+font-size: 15px;
+color: #27487e;
+text-align: center;
+}
+#shared .cerrar{
+   margin-top: -30px;
+margin-left: 46px;
+}
+#shared .titulo_mondal{
+    padding-top: 1rem;
+    font-family: 'Raleway Bold', serif;
+    text-transform:uppercase;
+    font-size: 25px;
+    color: #27487e ;
+    text-align: center;
+}
+#shared .shared-image{
+    height:37%;
+    margin-top: 50px;
+margin-left: 25px;
+margin-right: 25px;
+}
+#rating .titulo_mondal{
+    padding-top: 1rem;
+    font-family: 'Raleway Bold', serif;
+    text-transform:uppercase;
+    font-size: 25px;
+    color: #27487e ;
+    text-align: center;
+}
+#rating .modal_barra{
+    width: 100%;
+border-bottom: #27487e 4px solid;
+padding-top: 15px;
+}
+#rating .btnCerrarModal{
+   cursor: pointer;
+position: absolute;
+right:0;
+top:0;
+}
+#rating .message{
+    font-family: 'Raleway ExtraLigth', serif;
+padding-top: 15px;
+font-size: 15px;
+color: #27487e;
+text-align: center;
+}
+#rating .cerrar{
+   margin-top: -30px;
+margin-left: 46px;
+}
+#rating .jRatingAverage {
+	background-color:#f62929;
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+#rating .jRatingColor {
+	background-color:#f4c239; /* bgcolor of the stars*/
+	position:relative;
+	top:0;
+	left:0;
+	z-index:2;
+	height:100%;
+}
+
+/** Div containing the stars **/
+#rating .jStar {
+	position:relative;
+	left:0;
+	z-index:3;
+}
+
+/** P containing the rate informations **/
+p.jRatingInfos {
+	position:		absolute;
+	z-index:9999;
+	background:	transparent url('../media/icons/bg_jRatingInfos.png') no-repeat;
+	color:			#FFF;
+	display:		none;
+	width:			91px;
+	height:			29px;	
+	font-size:16px;
+	text-align:center;
+	padding-top:5px;
+}
+	p.jRatingInfos span.maxRate {
+		color:#c9c9c9;
+		font-size:14px;
+	}
+        
+#twitter-share-section a {
+    padding: 70px 76px 125px 20px;
+    background: url('../media/images/tw.png') 1px center no-repeat;
+    border: 0px solid #ccc;
+  }
+  .reveal-modal{
+      min-height: 0;
+  }
+  button{
+      text-transform: uppercase !important;
+  }

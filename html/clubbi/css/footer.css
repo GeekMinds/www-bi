@@ -1,0 +1,20 @@
+/**
+ * Description of footer
+ *
+ * @author David
+ */
+.footer {
+  background: #D7D7D7;
+  min-height: 100px;
+}
+.copyright{
+  font-family: 'Raleway Light';
+  cursor: default!important; 
+  font-size: 13px;
+  margin-top: 42px;
+  color:#7E7E7E;
+}
+.copyright-img{
+  cursor: default!important; 
+  margin-top: 12px;
+}

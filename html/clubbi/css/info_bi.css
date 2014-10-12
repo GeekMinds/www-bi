@@ -1,0 +1,66 @@
+
+
+/**
+ * Description of info_bi
+ *
+ * @author David
+ */
+.SubTitle{
+    font-family: 'Raleway Bold', serif;
+    text-transform:uppercase;
+    font-size: 25px;
+    color: #27487e;
+    border-bottom: #27487E 4px solid;
+}
+
+.banner1{
+    width: 100%;
+}
+.btn_adquirir
+{
+    background-image: url('../media/images/header.jpg');
+background-position-y: 135px;
+background-position-x: -155px;
+border-radius: 5px;
+font-family: 'Raleway Light';
+font-size: 21px;
+height: 54px;
+border-bottom: #ED6D06 4px solid;
+}
+.faq{
+    background-color:#2B5AA8;
+    min-height: 600px;
+}
+.faq .title{
+    font-family: 'Raleway Bold';
+    color:#5283D3;
+    cursor: default;
+    font-size: 29px;
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: #5283d3 4px solid;
+}
+.faq .number{
+    font-family: 'Raleway Bold';
+  color:#5283D3;
+  cursor: default;
+  font-size: 70px;
+  margin-top: -10px;
+}
+.fatTitle{
+font-family: 'Raleway Bold';
+color: #FFFFFF;
+font-size: 18px;
+max-width: 311px;
+text-transform: uppercase;
+line-height: 21px;
+}
+.facContent{
+  font-family: 'Raleway Light';
+color: #FFFFFF;  
+font-size: 17px;
+padding-left: 20px;
+max-width: 305px;
+line-height: 21px;
+}
+

@@ -1,0 +1,26 @@
+
+/* 
+    Created on : Jul 24, 2014, 1:19:03 PM
+    Author     : Javier Cifuentes
+*/
+.orbit-timer{
+    display:none;
+}
+.orbit-slide-number{
+    display:none;
+}
+.orbit-bullets{
+    margin: -99px auto 30px auto;
+    padding-bottom: 10px !important;
+}
+.orbit-bullets li.active{
+    background: #00a1e4;
+}
+.orbit-bullets li{
+    background: #B1B1B1;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.orbit-container .orbit-slides-container{
+    margin-bottom: 25px;
+}

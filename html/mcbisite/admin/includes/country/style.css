@@ -1,0 +1,36 @@
+body{
+	min-width:500px !important ;
+	min-height:500px !important ;
+	height:700px;
+}
+.frame { 
+	height: 22px;
+	width: 36px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+label{
+	float:left;	
+}
+form { display: block; margin: 20px auto; background: #eee; border-radius: 10px; padding: 15px }
+.progress { position:relative; width:200px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+.percent {
+	position:absolute;
+	display:inline-block;
+	top:3px;
+	left:93px;
+}
+
+form.jtable-dialog-form div.jtable-input-field-container{
+	float:none !important;
+	width:auto !important;	
+}
+body{
+	min-height:700px;
+}
+.ui-widget-overlay{
+	background: #fff !important;
+}

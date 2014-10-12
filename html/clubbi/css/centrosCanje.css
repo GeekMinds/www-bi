@@ -1,0 +1,90 @@
+.numberBeneficios{
+    font-family:'Raleway Light';
+    font-size: 23px;
+color: #27487e;
+padding-top: 1.5rem;
+text-align: right;
+}
+.filtroNumberBeneficio
+{
+   height: 43px;
+}
+.filtroNumberBeneficio.Todos
+{
+    background-color:#FF9700;
+}
+.filtroNumberBeneficio.num36
+{
+background-color:#FFAA2D;
+}
+.filtroNumberBeneficio.num9
+{
+background-color:#FFBB5A;
+}
+input.searchBeneficio
+{
+    height: 43px;
+    width: 225px;
+    display: inline;
+    margin-right: -4px;
+    background-color: #B8B8B8;
+    color: #ffffff;
+    font-family:'Raleway Light'
+}
+input.searchBeneficio:hover, input.searchBeneficio:focus
+{
+    background-color: #D0D0D0;
+}
+.filtroNumberBeneficio
+{
+   height: 43px;
+   text-align: center;
+   font-family: 'Raleway';
+color: #ffffff;
+padding-top: 13px;
+width: 79px;
+}
+.row.parentSelectMenu li
+{
+   background: linear-gradient(169deg, #00A1E5 50px, #08A7E9 0px);
+    height: 52px;
+    padding-top: 14px;
+    text-align: center;
+   font-family: 'Raleway Light';
+   color: #ffffff;
+}
+.row.parentSelectMenu li.active:before
+{
+    border-left: 25px solid transparent;
+border-right: 25px solid transparent;
+content: "";
+border-top: 20px solid #08A7E9;
+position: relative;
+bottom: -54px;
+width: 0px;
+left: 9%;
+margin-left: -25px;
+margin-right: -25px;
+}
+ul {
+margin-left: 0rem;
+}
+.fixpadding
+{
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 18px;
+margin-right: -3px;
+margin-left: -3px;
+}
+.pagination li
+{
+    font-family: 'Raleway';
+    color:#2B5AA8 !important;
+}
+.blueLine{
+  border-bottom: #FFBB5A 5px solid;
+  
+}
+
+

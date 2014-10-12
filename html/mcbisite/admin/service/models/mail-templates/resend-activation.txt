@@ -1,0 +1,31 @@
+<body style="margin:0; padding:0;">
+<div style="width:100%; height:10px; background-color:#034382"></div>
+<div style="width:100%; text-align:center; padding-top:15px; padding-bottom:15px">
+	<img src="#WEBLOGO#" />
+</div>
+<div style="width:100%; height:2px; background-color:#E6E7E8";display: inline-block;></div>
+<div style=" margin:30px;margin-top:50px; color:#034382; font-size:24px; text-align:center; font-weight:bold;font-family: sans-serif;">
+<!--Título Lorem ipsum dolor sit amet, consectetur adipisicing elit-->
+Nuevo link de activación para #USERNAME#
+</div>
+<div style=" color:#6A6A6A; margin:30px;font-family: sans-serif;margin-bottom: 50px;">
+Usted o alguien más ha solicitado un nuevo enlace de activación, por favor, utilice el siguiente url para activar su cuenta;<br/>
+
+#ACTIVATION-URL
+
+</div>
+<div style="background-color:#034382; width:100%;display: inline-block;padding: 20px; text-align:center">
+	<div style="margin:auto;display: inline-block;">
+    	<!--<a href="#"><img style="float:left; margin-right:10px;" src="images/facebook.png"/></a>
+    	<a href="#"><img style="float:left;margin-right:10px;" src="images/twitter.png"/></a>
+    	<a href="#"><img style="float:left;margin-right:10px;" src="images/vimeo.png"/></a>
+    	<a href="#"><img style="float:left;margin-right:10px;" src="images/youTube.png"/></a>-->
+        #NETWORK
+    </div>
+    <div style="color:#FFF; margin-top:10px;font-family: sans-serif;">
+    	#WEBSITENAME#
+    	<br/>
+    	<a style="color:#3BB2E4; cursor:pointer; text-decoration:none;" href="#WEBSITEURL#">#WEBSITEURL#</a>
+    </div>
+</div>
+</body>

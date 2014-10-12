@@ -1,0 +1,14 @@
+RewriteEngine On
+	
+					 RewriteRule ^(gt)$ index.php?site_id=1
+					 RewriteRule ^(gt)/?$ index.php?site_id=1&page=$1 [QSA,NC,L]
+					 RewriteRule ^(gt)/$ index.php?site_id=1
+					 RewriteRule ^(gt)/([0-9]+)$ index.php?site_id=1&page=$2 
+					 RewriteRule ^(gt)/([0-9]+)/$ index.php?site_id=1&page=$2
+					 RewriteRule ^(gt)/([a-zA-Z]+).php$ index.php?site_id=1&file=$2
+					 RewriteRule ^(hn)$ index.php?site_id=2
+					 RewriteRule ^(hn)/?$ index.php?site_id=2&page=$1 [QSA,NC,L]
+					 RewriteRule ^(hn)/$ index.php?site_id=2
+					 RewriteRule ^(hn)/([0-9]+)$ index.php?site_id=2&page=$2 
+					 RewriteRule ^(hn)/([0-9]+)/$ index.php?site_id=2&page=$2
+					 RewriteRule ^(hn)/([a-zA-Z]+).php$ index.php?site_id=2&file=$2

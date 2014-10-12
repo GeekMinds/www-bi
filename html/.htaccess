@@ -1,0 +1,19 @@
+AuthUserFile /var/www/html/.htpasswd
+AuthGroupFile /www.null
+AuthName "Authorization Required"
+AuthType Basic
+ 
+require user biuser
+
+#SetEnvIf Request_URI "(/var/www/html/mcbisite/assets/)$" allow
+#Order allow,denymcbisite
+#Allow from env=allow
+#Satisfy any
+
+AuthUserFile /var/www/html/.htpasswd
+AuthGroupFile /www.null
+AuthName "Authorization Required"
+AuthType Basic
+
+Satisfy Any
+#require user biuser

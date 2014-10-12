@@ -1,0 +1,61 @@
+
+
+/*---------------------------------
+	IMPORTS
+-----------------------------------*/
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arimo'), url(ZS0wkeOZuckNE3boyLYNt6CWcynf_cDxXwCLxiixG1c.woff) format('woff');
+}
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arimo Bold'), local('Arimo-Bold'), url(UnXpojilM3XslYxUnWuVe3YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+/*---------------------------------
+	OVERRIDES
+-----------------------------------*/
+body{
+    font: normal 0.9em/150% 'Arimo', arial, verdana, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: "Arimo", arial, verdana, sans-serif;
+font-weight:normal;
+}
+
+thead th,
+tbody th{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+button,
+a.btn,
+input[type="submit"],
+input[type="reset"],
+input[type="button"]{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+.menu{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+blockquote{
+font-family: "Arimo", arial, verdana, sans-serif;
+}
+
+.tituloPaginaAdmin{
+    font-weight: bold;
+    color: #317eac;
+    text-rendering: optimizelegibility;
+}
+
+.descripcionPaginaAdmin{
+    font-size: 15px;
+line-height: 18px;
+color: #555555;
+text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.2);
+}

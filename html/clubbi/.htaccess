@@ -1,0 +1,7 @@
+AuthUserFile /var/www/html/.htpasswd
+AuthGroupFile /www.null
+AuthName "Authorization Required"
+AuthType Basic
+
+Satisfy Any
+#require user biuser
